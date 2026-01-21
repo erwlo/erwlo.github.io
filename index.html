@@ -3,10 +3,83 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My GitHub Page</title>
+    <title>John Doe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Hello from GitHub Pages 👋</h1>
-    <p>If you can see this, your site is live.</p>
+    <main class="page">
+      <!-- Left sidebar -->
+      <aside class="sidebar">
+        <img class="avatar" src="profile.jpg" alt="John Doe portrait" />
+
+        <section class="card">
+          <h3>contact</h3>
+          <p>
+            John Doe<br />
+            123 Placeholder Street<br />
+            Sample City, AB 12345<br />
+            Country
+          </p>
+          <p>
+            email:<br />
+            <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+          </p>
+        </section>
+
+        <section class="card">
+          <h3>links</h3>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Personal Blog</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- Main content -->
+      <section class="content">
+        <h1>John Doe</h1>
+
+        <p>
+          I am a researcher and engineer interested in natural language processing,
+          machine learning, and human-centered AI. My work focuses on building
+          reliable systems that interact with natural language data.
+        </p>
+
+        <p>
+          I received my PhD in Computer Science from Example University, where I was
+          advised by Advisor One and Advisor Two. My research explored connections
+          between structured representations and text generation.
+        </p>
+
+        <p>
+          Previously, I worked in industry on large-scale machine learning systems
+          and data-driven products.
+        </p>
+
+        <hr />
+
+        <h2>experience</h2>
+        <ul>
+          <li>Research Scientist — Example Lab (2022–Present)</li>
+          <li>Machine Learning Engineer — Company Name (2019–2022)</li>
+        </ul>
+
+        <h2>education</h2>
+        <ul>
+          <li>PhD, Computer Science — Example University</li>
+          <li>BSc, Computer Science — Sample College</li>
+        </ul>
+
+        <footer>
+          <p>© <span id="year"></span> John Doe</p>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
