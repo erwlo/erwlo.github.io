@@ -3,84 +3,280 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ernest Lo is a researcher and engineer working across medical machine learning, imaging physics, and applied AI."
+    />
     <title>Ernest W. Lo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <main class="page">
-      <!-- Left sidebar -->
-      <aside class="sidebar">
-        <img class="avatar" src="profile.jpeg" alt="Ernest Lo portrait" />
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Ernest Lo home">
+        <span class="brand-mark">EL</span>
+        <span>Ernest W. Lo</span>
+      </a>
 
-        <section class="card">
-          <h3>contact</h3>
-          <p>
-            Ernest Lo<br />
-            London<br />
-            United Kingdom
-           
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#research"><span>01</span> Research</a>
+        <a href="#experience"><span>02</span> Work</a>
+        <a href="#papers"><span>03</span> Papers</a>
+        <a href="#education"><span>04</span> Education</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">Researcher / Engineer / London</p>
+          <h1>Medical AI, imaging, computational fluid dynamics, and AI in Research.</h1>
+          <p class="lede">
+            Ernest Lo works at the intersection of medical applications of
+            machine learning, computational modelling, and real-world AI
+            deployment.
           </p>
-          <p>
-            contact:<br />
-            <a href="mailto:rmapelo@ucl.ac.uk">email</a>
-          </p>
-        </section>
+          <div class="hero-actions" aria-label="Contact links">
+            <a class="button primary" href="mailto:rmapelo@ucl.ac.uk">Contact email</a>
+            <a class="button secondary" href="#research">View work</a>
+          </div>
+        </div>
 
-  
-      </aside>
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="avatar-wrap">
+            <img class="avatar" src="profile.jpeg" alt="Ernest Lo portrait" />
+          </div>
+          <div class="profile-meta">
+            <p class="panel-label">Profile</p>
+            <h2>Ernest Lo</h2>
+            <p>London, United Kingdom</p>
+            <a href="mailto:rmapelo@ucl.ac.uk">Contact email</a>
+          </div>
+        </aside>
+      </section>
 
-      <!-- Main content -->
-      <section class="content">
-        <h1>Ernest Lo</h1>
+      <section id="research" class="section research-interest">
+        <div class="section-heading">
+          <p class="kicker">Section 01</p>
+          <h2>Research Interest</h2>
+        </div>
 
-        <p>
-          I am a researcher and engineer interested in medical applications of machine learning and AI,
-          My work previously focused on building computational fluid dynamics simulations of bloodflow
-          in imaging-generated 3D models of coronary arteries, as well as simulations of plaque dynamics.
-        </p>
+        <div class="research-body">
+          <article class="statement">
+            <p class="bio-label">Bio</p>
+            <p>
+              I am a researcher and engineer interested in medical applications of
+              machine learning and AI. My work focused on building computational
+              fluid dynamics simulations of blood flow in imaging-generated 3D
+              models of coronary arteries, as well as simulations of plaque
+              dynamics. This research involved using AI image segmentation
+              techniques to generate geometries for simulations.
+            </p>
+            <p>
+              Outside of medical research I have a strong interest in the
+              transformative effects of AI in academic research, and more broadly
+              in society, politics, and the economy. To explore these fields I
+              have taken sabbatical roles in the public sector, exploring open
+              data policies across industries, as well as a volunteer role in a
+              community activism group tackling hate crimes during and after the
+              COVID-19 pandemic caused by widespread media bias that affects human
+              perception and algorithms.
+            </p>
+            <p>
+              I received my PhD in Medical Physics and Biomedical Engineering from
+              University College London, where I was advised by Professor Ryo Torii
+              and Dr. Leon Menezes. My research explored methods of improving
+              imaging-based diagnoses of Coronary Artery Disease, specifically
+              CT-FFR.
+            </p>
+            <p>
+              I am also passionate about applying cutting-edge research and
+              technology to the real world, and have worked in the startup
+              ecosystem, including a Y Combinator-funded startup in the healthtech
+              space.
+            </p>
+            <p>
+              I currently work as a researcher in these areas, contribute as an
+              Open Science contributor to MedARC, and am working on a startup
+              (stealth) involving AI in academic research and education.
+            </p>
+          </article>
 
-        <p>
-          Outside of medical research I have a strong interest in the transformative effects of AI, in 
-          academic research, but also more broadly in society, politics and the economy.  To explore these fields I have taken sabbatical roles in the public sector, exploring open data policies on various industries, 
-          as well as a volunteer role in a community activism group tackling hate crimes during and after the COVID-19 pandemic caused by widespread media bias that affects human perception and algorithms.  
-        </p>
+          <div class="research-cards">
+            <article class="feature-card">
+              <span class="feature-number">01</span>
+              <h3>Medical AI</h3>
+              <p>
+                Applying machine learning and AI methods to medical imaging,
+                diagnosis, and clinical decision making.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">02</span>
+              <h3>Neural AI and Vision</h3>
+              <p>
+                Applying AI techniques to interpret neuro-visual signal from
+                fMRI and using generative AI to reform seen image. (Open
+                science contribution to MedARC)
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">03</span>
+              <h3>Coronary Artery and Plaque Simulation</h3>
+              <p>
+                Building computational fluid dynamics simulations of blood flow
+                in imaging based coronary artery geometries. Modelling
+                plaque/disease progression based on mechanical stresses.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">04</span>
+              <h3>AI/AGI and Society</h3>
+              <p>
+                Exploring the effects of AI on research, public policy, open data,
+                social/political systems, and the economy.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <p>
-          I received my PhD in Medical Physics and Biomedical Engineering from University College London, 
-          where I was advised by Professor Ryo Torii and Dr. Leon Menezes. My research explored methods 
-          of improving imaging based diagnoses of Coronary Artery Disease, specifically CT-FFR.
-        </p>
+      <section id="experience" class="section split-section work-section">
+        <div class="section-heading">
+          <p class="kicker">Section 02</p>
+          <h2>Work/Experience</h2>
+        </div>
 
-        <p>
-          I am also passionate about applying cutting edge research and technology to the real world and,
-          have worked in the startup ecosystem, including a Y-Combinator funded startup in the healthtech space.  
-          
-          
-        </p>
+        <div class="work-grid">
+          <article class="work-card is-present">
+            <span class="work-org">Stealth</span>
+            <strong>Founder</strong>
+            <span class="work-date">Present</span>
+          </article>
+          <article class="work-card is-present">
+            <span class="work-org">MedARC</span>
+            <strong>Open Science Researcher</strong>
+            <span class="work-date">Present</span>
+          </article>
+          <article class="work-card is-present">
+            <span class="work-org"></span>
+            <strong>Independent Researcher</strong>
+            <span class="work-date">Present</span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">Terra API (YC-W21)</span>
+            <strong>Use Case Engineer</strong>
+            <span class="work-date"></span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">BESEAN</span>
+            <strong>Volunteer Researcher/Data Lead</strong>
+            <span class="work-date"></span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">Institute of Cardiovascular Science</span>
+            <strong>Researcher</strong>
+            <span class="work-date"></span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">UCL</span>
+            <strong>PhD Candidate</strong>
+            <span class="work-date"></span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">UCLH</span>
+            <strong>Postdoctoral Researchers</strong>
+            <span class="work-date"></span>
+          </article>
+          <article class="work-card">
+            <span class="work-org">Greater London Authority</span>
+            <strong>Data Specialist in Open Data policy</strong>
+            <span class="work-date"></span>
+          </article>
+        </div>
+      </section>
 
-        <hr />
+      <section id="papers" class="section split-section">
+        <div class="section-heading">
+          <p class="kicker">Section 03</p>
+          <h2>Select papers</h2>
+        </div>
 
-        <h2>Experience</h2>
-        <ul>
-          <li>Independent Researcher and Startups (Present)</li>
-          <li>Use Case Engineer — Terra API (YC(W21)) </li>
-          <li>Postdoctoral Researcher — University College London Hospitals </li>
-          <li>PhD Candidate — University College London</li>
-        </ul>
+        <div class="paper-list">
+          <article class="paper-card">
+            <div>
+              <div class="paper-topline">
+                <span class="paper-meta">Annals of Biomedical Engineering</span>
+                <a href="https://link.springer.com/article/10.1007/s10439-026-04002-2" target="_blank" rel="noreferrer">Read paper</a>
+              </div>
+              <h3>A Novel Demography-Based Approach to Define Patient-Specific Outflow Boundary Conditions in CT-Based FFR Computations</h3>
+              <p>
+                Proposes a practical demographic model for estimating patient-specific
+                microvascular response in CT-FFR calculations without additional
+                perfusion imaging.
+              </p>
+            </div>
+          </article>
 
-        <h2>Education</h2>
-        <ul>
-          <li>PhD, Medical Physics and Biomedical Engineering — University College London</li>
-          <li>MRes, Medical Imaging — University College London</li>
-          <li>MSci, Physics with Theoretical Physics Focus — Imperial College London</li>
-        </ul>
+          <article class="paper-card">
+            <div>
+              <div class="paper-topline">
+                <span class="paper-meta">Medical Engineering &amp; Physics</span>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/31866119/" target="_blank" rel="noreferrer">Read paper</a>
+              </div>
+              <h3>On outflow boundary conditions for CT-based computation of FFR: Examination using PET images</h3>
+              <p>
+                Studies outflow boundary condition sensitivity in CT-based FFR and
+                compares morphology-based assumptions with PET perfusion-based
+                conditions.
+              </p>
+            </div>
+          </article>
 
-        <footer>
-          <p>© <span id="year"></span> Ernest Lo</p>
-        </footer>
+          <article class="paper-card">
+            <div>
+              <div class="paper-topline">
+                <span class="paper-meta">Fluids</span>
+                <a href="https://www.mdpi.com/2311-5521/4/2/60" target="_blank" rel="noreferrer">Read paper</a>
+              </div>
+              <h3>Impact of Inflow Boundary Conditions on the Calculation of CT-Based FFR</h3>
+              <p>
+                Examines how pulsatile, steady, patient-specific, and population-average
+                inflow boundary conditions affect CT-based fractional flow reserve
+                calculations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section split-section">
+        <div class="section-heading">
+          <p class="kicker">Section 04</p>
+          <h2>Education</h2>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <span>PhD</span>
+            <strong>Medical Physics and Biomedical Engineering - University College London</strong>
+          </li>
+          <li>
+            <span>MRes</span>
+            <strong>Medical Imaging - University College London</strong>
+          </li>
+          <li>
+            <span>MSci</span>
+            <strong>Physics with Theoretical Physics Focus - Imperial College London</strong>
+          </li>
+        </ol>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Ernest Lo</p>
+      <a href="mailto:rmapelo@ucl.ac.uk">contact email</a>
+    </footer>
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
